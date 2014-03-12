@@ -104,16 +104,7 @@
       <file leaf-file-name="micropost.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08955224" vertical-offset="0" max-vertical-offset="670">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+            <state line="4" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08658009" vertical-offset="0" max-vertical-offset="693">
               <folding />
             </state>
           </provider>
@@ -629,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08955224" vertical-offset="0" max-vertical-offset="670">
+        <state line="4" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08658009" vertical-offset="0" max-vertical-offset="693">
           <folding />
         </state>
       </provider>
