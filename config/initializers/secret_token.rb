@@ -9,4 +9,19 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AndrewApp::Application.config.secret_key_base = '438de3fe628856a6e769554ea853bce13c10a153c2b640fff3e3c7a078f0e15afde7fd2275827b3f7c87a65fd1f508a8a2202f55fcf809c4915b7839d3e0a280'
+
+
+def secure_token
+  token_file = Rails.root.join('.secret')
+  if File.exist?(token_file)
+    #Use the existin token.
+    File.read(token_file.chomp)
+  else
+    #Generate a new token and store it in token_file.
+    token = SecureRandom.hex(64)
+    File.write(token_file, token)
+    token
+  end
+end
+
+AndrewApp::Application.config.secret_key_base = secure_token
